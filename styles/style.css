@@ -1,0 +1,140 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: #dbb7bc;
+    height: 100vh;
+}
+
+header>h1 {
+    color: #6e4249;
+}
+
+.container {
+    margin-top: 30px;
+}
+
+.half-width {
+    height: 570px;
+    background: #6e4249;
+    box-shadow: inset 5px 5px #a7737b;
+    padding: 30px;
+    text-align: center;
+}
+
+.generate-btn {
+    margin-top: 140px;
+    width: 180px;
+    padding: 50px;
+    border-radius: 50%;
+    border: 8px solid #dbb7bc;
+    background-color: #a7737b;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+}
+
+.generate-btn:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.generate-btn:hover {
+    background: #c58b94;
+}
+
+input[type='text'] {
+    background-color: #ffdee2;
+    padding: 10px 0px;
+    color: #6e4249;
+    width: 80%;
+    margin: 0 auto;
+    border: 2px solid #dbb7bc;
+    height: 50px;
+    padding: 10px;
+    font-weight: 600;
+}
+
+input[type='text']:focus {
+    background-color: #ffdee2;
+    color: #6e4249;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.numbers {
+    margin: 30px 0;
+}
+
+.calc-typed {
+    margin-top: 20px;
+    font-size: 45px;
+    text-align: right;
+    color: #ffffff;
+}
+
+.calc-button-row {
+    width: 100%;
+}
+
+.button {
+    width: 20%;
+    background: #a7737b;
+    color: #fff;
+    padding: 20px 0;
+    margin: 5px;
+    display: inline-block;
+    font-size: 25px;
+    font-weight: 600;
+    text-align: center;
+    vertical-align: middle;
+    margin-right: -4px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background: #c58b94;
+}
+
+.blink-me {
+    color: #E0B612;
+}
+
+.submit-btn {
+    border: none;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    background: #a7737b;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.submit-btn:hover {
+    background: #c58b94;
+}
+
+.notify {
+    color: #ffffff;
+    text-align: center;
+    margin: 0 auto;
+    background: #6e4249;
+    margin-top: 20px;
+    border-radius: 15px;
+    padding: 5px 20px;
+    display: none;
+}
+
+.notify-section {
+    width: 35%;
+    margin: 0 auto;
+}
+
+.action-left {
+    color: #f86681;
+    margin-top: 10px;
+    font-weight: 600;
+}
